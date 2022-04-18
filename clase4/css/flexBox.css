@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8d8d8;
+}
+main{
+    background-color: #fff;
+    /* centrar una caja */
+    width: 960px;
+    margin: auto;
+
+    height: 300px;
+
+    /* flexbox  */
+    display: flex;
+    justify-content: space-between;
+}
+
+#verde{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(166, 251, 155);
+}
+#naranja{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(251, 246, 155);
+}
+
+#contenedor{
+    width: 960px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+    #celeste{
+        width: 650px;
+        height: 250px;
+        background-color: rgb(155, 237, 251);
+    }
+    #rosa{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(251, 155, 155);
+    }
