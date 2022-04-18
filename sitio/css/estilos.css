@@ -69,7 +69,7 @@ footer{
             display: flex;
             justify-content: space-between;
 
-            /* elinear texto en vertical */
+            /* alinear texto en vertical */
             line-height: 150px;
     }
     #logoPie img{
