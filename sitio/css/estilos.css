@@ -48,3 +48,32 @@ nav a{
     text-decoration: none;
     padding: 20px 8px;
 }
+
+/* ###  main  ### */
+main{
+    min-height: 600px;
+}
+
+/* ###  footer  ### */
+footer{
+    background-color: #262626;
+    color: #fff;
+}
+    #pie{
+            /* centrar caja pie */
+            width: 1100px;
+            margin: auto; /* centrar */
+
+            height: 150px;
+
+            display: flex;
+            justify-content: space-between;
+
+            /* elinear texto en vertical */
+            line-height: 150px;
+    }
+    #logoPie img{
+        width: 32px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
