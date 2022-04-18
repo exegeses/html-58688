@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8d8d8;
+}
+#verde{
+    background-color: rgb(147, 243, 147);
+    height: 200px;
+    width: 200px;
+    /* margin separación hacia fuera */
+    margin-left: 25px;
+    margin-top: 35px;
+}
+#naranja{
+    background-color: rgb(247, 228, 143);
+    height: 200px;
+    width: 200px;
+
+    /* padding separación hacian dentro */
+    padding: 50px;
+}
