@@ -16,8 +16,12 @@ main{
     margin: auto;
 
     display: flex;
+    justify-content: space-between;
 }
 
     main article{
         width: 320px;
+        padding: 20px;
+        border-radius: 12px;
+        background-color: #e8e8e8;
     }
