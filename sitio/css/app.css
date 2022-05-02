@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    color: #444;
+    font-size: 16px;
+}
+
+#top{
+    width: 1100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+    /* background-color: #262626; */
+}
+    #brand img{
+        width: 56px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    #brand{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+/* #### menu #### */
+    #top nav a{
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        padding: 20px 8px;
+    }
+
+#bg-grad{
+    background: rgb(229,139,185);
+    background: linear-gradient(90deg, rgba(229,139,185,1) 0%, rgba(206,184,245,1) 100%);
+}
+#hero{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+    #hero img{
+        margin: 60px 50px 100px 100px;
+    }
+    #hero h1{
+        margin-top: 180px;
+    }
+    #hero p{
+        width: 600px;
+        margin-top: 32px;
+        line-height: 24px;
+    }
+
+    .download{
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        line-height: 24px;
+        display: inline-block;
+        width: 240px;
+        margin: 24px;
+        padding: 8px 32px;
+        border: 1px solid #fff;
+        border-radius: 56px;
+        transition: .3s;
+    }
+    .download:hover{
+        color: #E58BB9;
+        background-color: #fff;
+    }
+    .fa-fw{
+        display: inline-block;
+        font-size: 24px;
+        /*color: #262626; */
+    }
+
+/* #### main #### */
+main{
+    min-height: 600px;
+    padding: 60px 0px;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* #### index #### */
+#index-features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+}
+#index-features article{
+    width: 353px;
+    text-align: center;
+}
+#index-features img{
+    width: 72px;
+    border: 1px solid #444;
+    border-radius: 50px;
+    padding: 16px;
+}
+h2{
+    font-size: 18px;
+    margin: 12px 0px;
+}
+
+/* #### features #### */
+#hero-h1{
+    width: 1100px;
+    margin: auto;
+    padding: 72px;
+    color: #fff;
+}
+
+#features{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    #features img{
+        margin: 32px 56px 32px 32px;
+    }
+    #features h2{
+        margin-top: 100px;
+    }
+    #features p{
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+#features2{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #features2 article{
+        width: 326px;
+        margin: 24px 0px;
+        text-align: justify;
+    }
+    #features2 h2 img{
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+
+/* #### comprar #### */
+
+#planes{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    #planes article{
+        width: 326px;
+        padding: 32px 0px;
+        box-shadow: 0px 0px 16px #e8e8e8;
+        border-radius: 12px;
+        text-align: center;
+    }
+    .precio, .precio2{
+        display: block;
+        background-color: #f8f8f8;
+        margin: 12px 0px;
+        padding: 8px 0px;
+    }
+    .precio2{
+        color: #fff;
+        background: rgb(229,139,185);
+        background: linear-gradient(90deg, rgba(229,139,185,1) 0%, rgba(206,184,245,1) 100%);
+    }
+    .cifra{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    #planes li{
+        list-style: none;
+        line-height: 32px;
+    }
+    #planes a{
+        display: inline-block;
+        border-radius: 24px;
+        padding: 8px 36px;
+        border: 1px solid #444;
+        margin: 32px;
+        text-decoration: none;
+        color: #444;
+        transition: .3s;
+    }
+    #planes a:hover{
+        background-color: #444;
+        color: #fff;
+    }
+    .destacado{
+        color: #fff !important;
+        border: 1px solid rgb(229,139,185) !important;
+        background: rgb(229,139,185) !important;
+        background: linear-gradient(90deg, rgba(229,139,185,1) 0%, rgba(206,184,245,1) 100%) !important;
+    }
+    .destacado:hover{
+        background: rgb(229,139,185) !important;
+        background: linear-gradient(0deg, rgba(229,139,185,1) 0%, rgba(206,184,245,1) 100%) !important;
+    }
+/* #### team #### */
+#team{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    #team figure{
+        position: relative;
+        top:0px;
+    }
+    #team figure img{
+        width: 245px;
+    }
+    .tmember{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(229, 139, 185, 0.5);
+        opacity: 0;
+        transition: .3s;
+        text-align: center;
+        color: #fff;
+    }
+    .tmember:hover{
+        height: 100%;
+        opacity: 1;
+    }
+    .name{
+        margin-top: 250px;
+        display: block;
+        font-weight: 600;
+    }
+
+/* #### contacto #### */
+#contacto{
+    background-image: url(../imgs/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #contenedor{
+        width: 1100px;
+        margin: auto;
+        min-height: 450px;
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #form{
+        width: 650px;
+        padding: 32px;
+    }
+    #form input, textarea{
+        width: 100%;
+        background-color: #f4f4f4;
+        font-family: Raleway;
+        border: none;
+        padding: 16px;
+        margin: 32px 32px 0px 48px;
+        border-radius: 8px;
+    }
+    textarea{
+        resize: none;
+        height: 152px;
+    }
+    #form button{
+        width: 100%;
+        background: rgb(68,68,68);
+        background: linear-gradient(180deg, rgba(68,68,68,1) 0%, rgba(86,86,86,1) 7%, rgba(86,86,86,1) 51%, rgba(68,68,68,1) 100%);
+        color: #fff;
+        font-family: Raleway;
+        border: none;
+        padding: 16px;
+        margin: 32px 32px 0px 48px;
+        border-radius: 8px;
+    }
+    #form button:hover{
+        transition: .3s;
+        cursor: pointer;
+        background: rgb(68,68,68);
+        background: linear-gradient(180deg, rgba(68,68,68,1) 0%, rgba(86,86,86,1) 7%, rgba(97,97,97,1) 23%, rgba(86,86,86,1) 51%, rgba(68,68,68,1) 100%);
+    }
+    #derecha{
+        text-align: center;
+        width: 246px;
+        height: 320px;
+        padding: 16px;
+        margin: 60px 72px 48px 0px;
+        background-color: #f4f4f4;;
+    }
+    #derecha img{
+        width: 72px;
+        border: 1px solid #444;
+        border-radius: 50px;
+        padding: 16px;
+    }
+    .emailphone{
+        display: block;
+        margin: 8px 0px;
+    }
+    #derecha hr{
+        margin: 16px;
+    }
+
+/* #### footer #### */
+footer{
+    color: #fff;
+    background-color: #262626;
+}
+    #bot{
+        width: 1100px;
+        height: 150px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        line-height: 150px;
+    }
+    #brand2 img{
+        width: 32px;
+        vertical-align: middle;
+        margin-right: 8px;
+    }
+    #social img{
+        width: 16px;
+        margin: 0px 8px;
+
+    }
